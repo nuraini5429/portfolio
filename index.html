@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Nur Aini</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">Aini<span>.</span></h2>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="menu-btn" id="menuBtn">☰</button>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <p class="hello">HELLO, I'M</p>
+            <h1>Nur Aini</h1>
+            <h2>Web Developer & RPL Student</h2>
+            <p>
+                Saya adalah pelajar Rekayasa Perangkat Lunak
+                yang tertarik dengan web development dan teknologi.
+            </p>
+
+            <div class="buttons">
+                <a href="#projects" class="btn">Lihat Project</a>
+                <a href="#contact" class="btn outline">Contact Me</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <div class="profile">
+                <span>NA</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-content">
+            <p>
+                Saya merupakan siswa RPL yang memiliki minat dalam
+                pembuatan website, desain UI, database, dan pemrograman.
+                Saya senang mempelajari teknologi baru dan mengembangkan
+                kemampuan melalui berbagai project.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-container">
+            <div class="skill">
+                <h3>HTML</h3>
+                <div class="bar">
+                    <span style="width: 90%"></span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <h3>CSS</h3>
+                <div class="bar">
+                    <span style="width: 85%"></span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="bar">
+                    <span style="width: 75%"></span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <h3>PHP & MySQL</h3>
+                <div class="bar">
+                    <span style="width: 70%"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+                <div class="project-icon">🌐</div>
+                <h3>Website Portfolio</h3>
+                <p>
+                    Website portofolio pribadi menggunakan HTML,
+                    CSS, dan JavaScript.
+                </p>
+                <a href="#">View Project →</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">📚</div>
+                <h3>Data Buku</h3>
+                <p>
+                    Aplikasi CRUD data buku menggunakan PHP dan MySQL.
+                </p>
+                <a href="#">View Project →</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">🍚</div>
+                <h3>RM. Aneka Nasi</h3>
+                <p>
+                    Desain website sederhana untuk menampilkan
+                    menu makanan dan informasi restoran.
+                </p>
+                <a href="#">View Project →</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+        <h2 class="section-title">Contact Me</h2>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Nama" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <textarea id="message" placeholder="Pesan" required></textarea>
+
+            <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© <span id="year"></span> Nur Aini. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
