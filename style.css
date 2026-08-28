@@ -130,9 +130,13 @@ header {
 }
 
 /* Profile */
-.hero-image {
-    display: flex;
-    justify-content: center;
+.hero-image img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #38bdf8;
+    box-shadow: 0 0 40px rgba(56, 189, 248, 0.3);
 }
 
 .profile {
