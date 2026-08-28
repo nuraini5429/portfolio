@@ -140,7 +140,7 @@ header {
 }
 
 .profile {
-    width: 280px;
+    width: 100px;
     height: 280px;
     border-radius: 50%;
     background: linear-gradient(135deg, #38bdf8, #6366f1);
